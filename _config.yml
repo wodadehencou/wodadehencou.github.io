@@ -2,8 +2,8 @@
 title:               'Blog of Jam'
 tagline:             'All my knownledge'
 description:         'Solutions of problems I met'
-url:                 "http://wodadehencou.github.io"
-baseurl:             'http://wodadehencou.github.io/'
+url:                 ''
+baseurl:             'https://wodadehencou.github.io/'
 paginate:            5
 permalink:           pretty
 
