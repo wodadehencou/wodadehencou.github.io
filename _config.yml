@@ -2,15 +2,15 @@
 title:               'Blog of Jam'
 tagline:             'All my knownledge'
 description:         'Solutions of problems I met'
-url:                 http://wodadehencou.github.io
-baseurl:             ''
+url:                 "http://wodadehencou.github.io"
+baseurl:             'http://wodadehencou.github.io/'
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
   name:              Jam Adams
-  url:               ''
+  url:               https://wodadehencou.github.io
   email:             wodadehencou@gmail.com
 
 # Gems
