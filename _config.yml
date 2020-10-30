@@ -1,16 +1,16 @@
 # Setup
-title:               'Blog of Jam'
+title:               Blog of Jam
 tagline:             'All my knownledge'
 description:         'Solutions of problems I met'
-url:                 ''
-baseurl:             'https://wodadehencou.github.io/'
+url:                 https://wodadehencou.github.io
+baseurl:             ''
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
   name:              Jam Adams
-  url:               https://wodadehencou.github.io
+  url:               
   email:             wodadehencou@gmail.com
 
 # Gems
