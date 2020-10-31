@@ -1,3 +1,8 @@
+---
+layout: default
+title: TODOs
+---
+
 # TODO things
 
 - [x] more articles per page
