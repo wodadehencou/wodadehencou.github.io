@@ -4,7 +4,7 @@ tagline:             'All my knownledge'
 description:         'Solutions of problems I met'
 url:                 https://wodadehencou.github.io
 baseurl:             ''
-paginate:            5
+paginate:            12
 permalink:           pretty
 
 # About/contact
