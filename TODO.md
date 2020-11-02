@@ -12,3 +12,4 @@ title: TODOs
 - [ ] open sidebar by default
 - [ ] add tags and categories page
 - [ ] add comments
+- [ ] sync to Gitee host for national access
