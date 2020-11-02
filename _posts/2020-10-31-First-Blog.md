@@ -9,6 +9,7 @@ As a programmer, begin with `Hello World`!
 
 > 你好，世界！
 
-* This is my first blog *
-** Jam **
+*This is my first blog*
+
+**Jam**
 
