@@ -41,3 +41,9 @@ validation-report.json
 # Folders to ignore
 node_modules
 bower_components
+
+# Local server needed
+Gemfile
+Gemfile.lock
+vendor
+.bundle
