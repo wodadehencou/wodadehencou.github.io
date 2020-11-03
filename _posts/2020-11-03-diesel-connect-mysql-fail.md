@@ -1,10 +1,9 @@
 ---
 layout: post
-title: TITLE
+title: diesel connect mysql fail
 date: 2020-11-03 15:45
 tags: [diesel, mysql, mariadb]
 category: rust 
-summary: Using diesel to connect mysql in parallel, Error: "Plugin caching_sha2_password could not be loaded: it is already loaded" 
 ---
 
 # diesel connect mysql fail

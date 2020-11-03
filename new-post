@@ -16,12 +16,12 @@ echo "title: "$TITLE >> $FILENAME
 echo "date: "$TIME >> $FILENAME
 echo "tags: []" >> $FILENAME
 echo "category: " >> $FILENAME
-echo "summary: " >> $FILENAME
+# echo "summary: " >> $FILENAME
 echo "---" >> $FILENAME
 
 echo "" >> $FILENAME
-echo "# "${TITLE} >> $FILENAME
-echo "" >> $FILENAME
+# echo "# "${TITLE} >> $FILENAME
+# echo "" >> $FILENAME
 
 git add $FILENAME
 
