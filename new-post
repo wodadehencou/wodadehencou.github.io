@@ -1,0 +1,31 @@
+#!/bin/bash
+
+TITLE=$1
+echo $TITLE
+TITLE_STRING=`sed -E 's/\s+/-/g' <<< $TITLE`
+echo $TITLE_STRING
+
+DATE=`date +%Y-%m-%d`
+TIME=`date +"%Y-%m-%d %H:%M"`
+
+FILENAME=_posts/${DATE}-${TITLE_STRING}.md
+
+echo "---" > $FILENAME
+echo "layout: post" >> $FILENAME
+echo "title: "$TITLE >> $FILENAME
+echo "date: "$TIME >> $FILENAME
+echo "tags: []" >> $FILENAME
+echo "category: " >> $FILENAME
+echo "summary: " >> $FILENAME
+echo "---" >> $FILENAME
+
+echo "" >> $FILENAME
+echo "# "${TITLE} >> $FILENAME
+echo "" >> $FILENAME
+
+git add $FILENAME
+
+echo $FILENAME
+
+
+
