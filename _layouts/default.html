@@ -12,20 +12,15 @@
       content to avoid any CSS collisions with our real content. -->
       <div class="wrap">
         <div class="masthead">
-          <div class="container">
-            <h3 class="masthead-title">
-              <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-              <small>{{ site.tagline }}</small>
-            </h3>
-          </div>
-          </br>
-		  <script async src="https://cse.google.com/cse.js?cx=0bc83f9fb7592f9d9"></script>
-		  <div class="gcse-search"></div>
 		  <!-- <div class="container"> -->
 		  <!--   <form> -->
 		  <!--     <input type="text" class="st-default-search-input" /> -->
 		  <!--   </form> -->
-		  <!-- </div> -->
+		  <form action="/search.html" method="get">
+			  <label for="search-box">Search</label>
+			  <input type="text" id="search-box" name="query">
+			  <input type="submit" value="search">
+		  </form>	  <!-- </div> -->
 		</div>
 
 
